@@ -27,5 +27,8 @@ public class FooterLinksTest extends base  {
 	{
 		System.out.println("hell");
 	}
-	
+	public void blahblaj()
+	{
+		System.out.println("hellopii");
+	}
 }
