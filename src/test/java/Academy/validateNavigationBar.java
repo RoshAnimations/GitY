@@ -43,6 +43,10 @@ public void initialize() throws IOException
 		 System.out.println("Test completed");
 		 System.out.println("yi op");
 		 System.out.println("yo jkimje op");
+		 System.out.println("Hello 1");
+		 System.out.println("Hello 2");
+		 System.out.println("Hello 3");
+		 
 	 //   Assert.assertFalse(false);
 		;
 	
