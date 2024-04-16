@@ -23,4 +23,9 @@ public class FooterLinksTest extends base  {
 		fl = new FooterLinks(driver);
 		fl.getWindowHandler();
 	}
+	public void blah()
+	{
+		System.out.println("hell");
+	}
+	
 }

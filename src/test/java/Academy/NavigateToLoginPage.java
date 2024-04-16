@@ -31,6 +31,16 @@ public class NavigateToLoginPage extends base {
 		  }
 		  l.getLogin().click(); 	 		
 	 }	 	
+	 @Test	 	
+	 public void validateAppNavikBar() throws IOException
+	 {
+	      LandingPage l=new LandingPage(driver);
+	 	  if(l.getPopUpSize()>0)
+		  {
+				l.getPopUp().click();
+		  }
+		  l.getLogin().click(); 	 		
+	 }	 	
 	 @AfterTest
 	 public void teardown()
 	 {	 		
